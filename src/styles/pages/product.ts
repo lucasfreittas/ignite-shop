@@ -1,6 +1,6 @@
 import { styled } from "..";
 
-export const ProcutContainer = styled('main', {
+export const ProductContainer = styled('main', {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
     alignItems: 'stretch',

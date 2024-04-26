@@ -5,6 +5,7 @@ import { stripe } from "@/libs/stripe";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import axios from "axios";
+import Stripe from "stripe";
 
 interface ProductProps {
   product: {

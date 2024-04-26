@@ -9,6 +9,7 @@ import Link from "next/link";
 
 import { GetStaticProps } from "next";
 import { stripe } from "@/libs/stripe";
+import Stripe from "stripe";
 
 interface HomeProps {
   products: {
